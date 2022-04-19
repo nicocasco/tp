@@ -1,0 +1,14 @@
+equipo_1 = str (input ("equipo 1"))
+equipo_2 = str (input ("equipo 2"))
+equipo_3 = str (input ("equipo 3"))
+equipo_4 = str (input ("equipo 4"))
+
+for i in range(1,5):
+	for j in range(1,5):
+		if(i != j):
+		 print ("Ingrese el resultado del partido del equipo", i ," vs equipo",j)
+		 resultado = str (input ("ingrese el resultado"))
+		 print ("el resultado es "+ resultado)
+for e in range (1, 5):
+		print ("los puntos del equipo: ", e)
+		puntos = int (input ("ingrese los puntos del equipo"))
